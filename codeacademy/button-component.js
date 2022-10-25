@@ -14,7 +14,7 @@ const App = () => {
       </Text>
       <Button
         title='Press me'
-        onPress={() => setPressedCount((pressedCount) => pressedCount + 1)}
+        onPress={() => setPressedCount( pressedCount + 1)}
         disabled={pressedCount>2} //to disable the button action.
       />
     </View>
